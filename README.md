@@ -4,5 +4,7 @@ Over the next two evenings, we will be building up an application that creates C
 ## Night 1
 The first evening, we will be simply adding Color Blocks to the DOM when the application loads. You will need to achieve this with just a little bit of jQuery Code, that targets the DOM, to add Div containers, that are styled with CSS. More specifically, create a Red, Yellow, Green, and Blue blocks when the application loads. They should be 100px in width, and 100px in height. They should have 10 px of space between each box. 
 
+![Here is an example of what your application should look like after night 1](http://imgur.com/TRhp9w1)
+
 ## Night 2 
 Add 4 buttons that read 'Red', 'Yellow', 'Green', and 'Blue'. When you click on those buttons, it should add a Color Block of that associated color to the DOM. Above the buttons, should be total counts for each colors relative to the number of times the button has been clicked, thus the total number of color blocks of that color.
