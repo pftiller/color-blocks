@@ -9,7 +9,8 @@ An application that adds and removes color blocks to the DOM using jQuery event 
 
 ## Authors
 
-Paul Tiller 
+**Paul Tiller**
 
+[Contributors](https://github.com/pftiller/color-blocks/graphs/contributors)
 
 
