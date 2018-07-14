@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  console.log('JQ loaded');
   $('#redBtn').on('click', red);
   $('#blueBtn').on('click', blue);
   $('#greenBtn').on('click', green);
@@ -7,6 +8,10 @@ $(document).ready(function() {
   $('#blue').on('click', removeBlue);
   $('#green').on('click', removeGreen);
   $('#yellow').on('click', removeYellow);
+  $('#squares').on('click', '#red', removeRed);
+  $('#squares').on('click', '#blue', removeBlue);
+  $('#squares').on('click', '#green', removeGreen);
+  $('#squares').on('click', '#yellow', removeYellow);
   initialCounts();
 });
 
@@ -60,4 +65,4 @@ function initialCounts() {
   $('#bluePara').text(blueCount);
   $('#greenPara').text(greenCount);
   $('#yellowPara').text(yellowCount);
-}
+};
